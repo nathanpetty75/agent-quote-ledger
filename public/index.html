@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agent Quote Ledger — check AI shopping quotes for overpay</title>
+<meta name="description" content="Paste a quote or receipt from ChatGPT, Grok, Perplexity, Gemini or Amazon. We parse it and compare against public page prices. No cards. No account linking.">
+<link rel="stylesheet" href="/style.css"></head><body><div class="wrap">
+<header><a class="brand" href="/" style="color:#111;text-decoration:none">Agent Quote Ledger</a>
+<nav><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="mailto:nathan@nathanpetty.com">Contact</a></nav></header>
+<div class="banner"><b>No reliance.</b> Automated estimate only — may be wrong. We do not store your paste on the server in this MVP. No card handling, no account linking. See <a href="/terms">disclaimer</a>.</div>
+<h1>Did your AI agent overpay?</h1>
+<p class="lead">Paste a quote, cart, or order confirmation from any AI shopping agent. We extract the total and merchant domain, then sample <b>public</b> prices on that site’s homepage HTML. Best-effort research tool — not advice.</p>
+<textarea id="paste" placeholder="Paste quote / cart / receipt text from ChatGPT, Grok, Perplexity, Gemini, Amazon, etc."></textarea>
+<button id="go" type="button">Check quote</button>
+<div id="out"></div>
+<footer>Agent Quote Ledger · Nathan Petty, 791 Jensen Court, Encinitas, CA 92024 · <a href="mailto:nathan@nathanpetty.com">nathan@nathanpetty.com</a><br>
+<a href="/privacy">Privacy</a> · <a href="/terms">Terms &amp; disclaimer</a><br>
+Not affiliated with OpenAI, xAI, Google, Perplexity, Amazon or Anthropic. No cookies, no ad trackers.</footer>
+</div><script src="/app.js"></script></body></html>
